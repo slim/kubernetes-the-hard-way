@@ -70,7 +70,7 @@ etcdctl member list
 ```
 
 ```text
-6702b0a34e2cfd39, started, controller, http://127.0.0.1:2380, http://127.0.0.1:2379, false
+6702b0a34e2cfd39, started, server, http://127.0.0.1:2380, http://127.0.0.1:2379, false
 ```
 
 Next: [Bootstrapping the Kubernetes Control Plane](08-bootstrapping-kubernetes-controllers.md)
