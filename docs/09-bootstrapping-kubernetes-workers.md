@@ -117,8 +117,8 @@ To ensure network traffic crossing the CNI `bridge` network is processed by `ipt
 
 ```bash
 {
-  modprobe br-netfilter
-  echo "br-netfilter" >> /etc/modules-load.d/modules.conf
+  modprobe br_netfilter
+  echo "br_netfilter" >> /etc/modules-load.d/modules.conf
 }
 ```
 
